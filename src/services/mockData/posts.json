@@ -1,0 +1,40 @@
+{
+  "posts": [
+    {
+      "Id": 1,
+      "userId": 2,
+      "userName": "Fatima Khan",
+      "userAvatar": "👩‍🏫",
+      "content": "Today we learned about patience from the story of Prophet Ayyub (AS). Such beautiful lessons for our children! 🤲",
+      "ayahReference": "Surah Al-Anbiya 21:83",
+      "ayahText": "And [mention] Job, when he called to his Lord, 'Indeed, adversity has touched me, and you are the most merciful of the merciful.'",
+      "likes": 24,
+      "isFeatured": true,
+      "timestamp": "2024-01-22T10:30:00Z"
+    },
+    {
+      "Id": 2,
+      "userId": 1,
+      "userName": "Ahmed Ali", 
+      "userAvatar": "👦",
+      "content": "Learned a new dua today! الحمد لله رب العالمين 📿",
+      "ayahReference": "Surah Al-Fatiha 1:2",
+      "ayahText": "Praise be to Allah, Lord of all the worlds",
+      "likes": 18,
+      "isFeatured": false,
+      "timestamp": "2024-01-22T15:45:00Z"
+    },
+    {
+      "Id": 3,
+      "userId": 3,
+      "userName": "Omar Hassan",
+      "userAvatar": "👨‍🎓", 
+      "content": "SubhanAllah! The Arabic lesson today was amazing. I can now read simple words! 📖✨",
+      "ayahReference": "",
+      "ayahText": "",
+      "likes": 12,
+      "isFeatured": false,
+      "timestamp": "2024-01-22T20:15:00Z"
+    }
+  ]
+}

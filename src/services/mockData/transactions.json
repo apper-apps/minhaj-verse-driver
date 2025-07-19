@@ -1,0 +1,34 @@
+{
+  "transactions": [
+    {
+      "Id": 1,
+      "fromUserId": 1,
+      "toUserId": 2,
+      "amount": 25,
+      "commission": 2.5,
+      "timestamp": "2024-01-22T16:00:00Z",
+      "type": "lesson",
+      "description": "Arabic Basics Class Payment"
+    },
+    {
+      "Id": 2,
+      "fromUserId": "admin",
+      "toUserId": 1,
+      "amount": 100,
+      "commission": 0,
+      "timestamp": "2024-01-20T12:00:00Z",
+      "type": "credit",
+      "description": "Welcome Bonus"
+    },
+    {
+      "Id": 3,
+      "fromUserId": 3,
+      "toUserId": 2,
+      "amount": 30,
+      "commission": 3.0,
+      "timestamp": "2024-01-21T17:30:00Z", 
+      "type": "lesson",
+      "description": "Qur'an Recitation Class Payment"
+    }
+  ]
+}
