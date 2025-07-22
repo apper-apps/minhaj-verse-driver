@@ -16,10 +16,11 @@ const Header = () => {
     { name: t("home"), href: "/", icon: "Home" },
     { name: t("myClasses"), href: "/classes", icon: "BookOpen" },
     { name: t("whiteboard"), href: "/whiteboard", icon: "PenTool" },
-    { name: t("quranPosts"), href: "/posts", icon: "MessageSquare" },
+{ name: t("quranPosts"), href: "/posts", icon: "MessageSquare" },
     { name: t("myWallet"), href: "/wallet", icon: "Wallet" },
     { name: t("profile"), href: "/profile", icon: "User" },
-    { name: t("contact"), href: "/contact", icon: "Mail" }
+    { name: t("contact"), href: "/contact", icon: "Mail" },
+    { name: "Admin Dashboard", href: "/admin", icon: "Shield" }
   ]
 
   const isActivePage = (href) => {

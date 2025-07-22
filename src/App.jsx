@@ -9,6 +9,7 @@ import QuranPosts from "@/components/pages/QuranPosts"
 import MyWallet from "@/components/pages/MyWallet"
 import Profile from "@/components/pages/Profile"
 import Contact from "@/components/pages/Contact"
+import AdminDashboard from "@/components/pages/AdminDashboard"
 import { LanguageProvider } from "@/hooks/useLanguage"
 
 function App() {
@@ -22,9 +23,10 @@ function App() {
             <Route path="/classes" element={<MyClasses />} />
             <Route path="/whiteboard" element={<Whiteboard />} />
             <Route path="/posts" element={<QuranPosts />} />
-            <Route path="/wallet" element={<MyWallet />} />
+<Route path="/wallet" element={<MyWallet />} />
             <Route path="/profile" element={<Profile />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/admin" element={<AdminDashboard />} />
           </Routes>
         </main>
         <Footer />
